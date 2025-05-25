@@ -1,0 +1,21 @@
+# Envs & cache
+myenv/
+.venv/
+__pycache__/
+*.pyc
+
+# Secrets
+.env
+
+# ML & binary files
+*.pkl
+*.dylib
+*.so
+*.pt
+
+# Data files
+scripts/finalMeals.csv
+scripts/finalAllergens.csv
+
+# Models
+model/
